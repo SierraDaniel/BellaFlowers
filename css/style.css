@@ -1,15 +1,3 @@
-/* =================================
-------------------------------------
-  Boto | Photography HTML Template
-  Version: 1.0
-  Copyright By: ColorLib
- ------------------------------------
- ====================================*/
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 
@@ -84,6 +72,14 @@ ul,
 ol {
 	padding: 0;
 	margin: 0;
+}
+
+.block_container {
+
+	background-color: #f9cbffa1;
+	border: solid;
+	border-color: #8d72bd;
+	padding: 1.5rem;
 }
 
 @media (min-width: 1200px) {
