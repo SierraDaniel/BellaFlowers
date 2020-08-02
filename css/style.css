@@ -62,6 +62,7 @@ textarea:focus {
 	outline: none;
 }
 
+
 a:hover,
 a:focus {
 	text-decoration: none;
@@ -1195,4 +1196,55 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	height: 110px;
 	resize: none;
 	margin-bottom: 50px;
+}
+
+/* custom buttons */
+
+.border_button {
+
+border: solid;
+border-color: black;
+background-color: white;
+
+}
+
+.hover_red {
+	color: black;
+}
+
+.hover_red:hover {
+	border: none;
+	background-color: rgb(255, 71, 71);
+	color: white;
+}
+
+.hover_yellow {
+	color: black;
+}
+
+.hover_yellow:hover {
+	border: none;
+	background-color: rgb(230, 185, 63);
+	color: white;
+}
+
+.hover_other {
+	color: black;
+}
+
+.hover_other:hover {
+	border: none;
+	background-color: rgb(169, 63, 230);
+	color: white;
+}
+
+.hover_tinted {
+	color: black;
+}
+
+.hover_tinted:hover {
+	border: none;
+	background: rgb(70,58,180);
+	background: linear-gradient(90deg, rgb(44, 29, 182) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	color: white;
 }
