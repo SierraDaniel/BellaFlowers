@@ -2,15 +2,22 @@
 <html lang="en">
 
 <head>
-	<title>Contact Us</title>
+	<title>BellaFlowers Gallery</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Boto Photo Studio HTML Template">
-	<meta name="keywords" content="photo, html">
+	<meta name="description" content="BellaFlowers Website">
+	<meta name="keywords" content="flowers, roses, Colombia">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/slicknav.min.css" />
+	<link rel="stylesheet" href="css/fresco.css" />
+	<link rel="stylesheet" href="css/gallery.css" />
+
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+
+
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css" />
 
@@ -40,23 +47,20 @@
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-6 order-1  order-md-2 text-center">
-					<a href="./index.html" class="site-logo">
-						<img src="img/logo2.png" alt="Logo Bella Flowers">
+					<a href="./index.html" class="site-logo width-restrict">
+						<picture>
+							<source media="(min-width:650px)" srcset="img/logo2.png">
+							<source media="(min-width:465px)" srcset="img/logo2.png">
+							<img src="img/logo2.png" alt="BellaLogo" style="height: 100px">
+						  </picture>
 					</a>
-				</div>
-				<div class="col-sm-4 col-md-3 order-3 order-sm-3">
-					<div class="header__switches">
-						<a href="#" class="search-switch"><i class="fa fa-search"></i></a>
-						<a href="#" class="nav-switch"><i class="fa fa-bars"></i></a>
-						<a href="#"><i class="fa fa-shopping-cart"></i></a>
-					</div>
 				</div>
 			</div>
 			<nav class="main__menu">
-				<ul class="nav__menu">
+				<ul class="nav__menu mb-3">
 					<li><a href="./index.html">Home</a></li>
 					<li><a href="./about.html">About</a></li>
-					<li><a href="./gallery.html">Gallery</a>
+					<li><a href="./gallery.html" class="menu--active">Gallery</a>
 						<ul class="sub__menu">
 							<li><a href="./gallery1.html">Red Roses</a></li>
 							<li><a href="./gallery2.html">Yellow Roses</a></li>
@@ -65,62 +69,100 @@
 						</ul>
 					</li>
 					<li><a href="./blog-single.html">Sustainability</a></li>
-					<li><a href="./contact.html" class="menu--active">Contact</a></li>
+					<li><a href="./contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<!-- Header Section end -->
 
-	<!-- Contact Page -->
-	<section class="contact__page">
-		<div class="contact__warp">
+	<div class="container my-0 ">
+
+		  
+		  <!-- Section heading -->
+		  <h3 class="font-weight-bold mb-0 pb-2 text-center">Red & Pink</h3> 
+
+	<!-- About Page -->
+
+
+<!-- classic gallery -->
+	<div class="gallery__page">
+		<div class="gallery__warp">
 			<div class="row">
-				<div class="col-md-6">
-					
-					<h2>Contact Us</h2>
-					<div class="about__text">
-
-						<div class="about__meta">
-							<img src="img/logo_bw.png" alt="Logo">
-							<div class="about__meta__info">
-								<h5>Bella Flowers-Colombia</h5>
-								<p>Bogotá-Tocancipá-Palo Verde</p>
-							</div>
+			  
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco  img-hover-zoom" href="img/gallery/red/1.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/1.png" alt="flower1">
+						<div class="blog__content text-white mb-5">
+							<h3> • Freedom</h3>
 						</div>
-					</div>
-					<div class="contact__social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-					</div>
-
-
+					</a>
 				</div>
-				<div class="col-md-6">
-					<div class="contact__text">
-
-						<p>Address: 1665 NW 102 Av. Suite 108 Doral, FL 33172</p> <br>
-						<p><b> Liliana Rodriguez </b> </p>
-						<p>Whatsapp: +57 320 376 4759</p>
-						<p>Email: lrodriguez@bellaflowers.co </p> <br>
-						<p><b>Jorge Gómez</b></p>
-						<p>Whatsapp: +57 315 694 4600 </p>
-						<p>Email: jgomez@bellaflowers.co </p>
-					</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/2.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/2.png" alt="flower2">
+						<div class="blog__content text-white mb-5">
+							<h3> • High & Twinkle </h3>
+						</div>
+					</a>
 				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/3.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/3.png" alt="flower3">
+						<div class="blog__content text-white mb-5">
+							<h3> • Orange Crush</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/4.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/4.png" alt="flower4">
+						<div class="blog__content text-white mb-5">
+							<h3> • Blush</h3>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/5.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/5.png" alt="flower4">
+						<div class="blog__content text-white mb-5">
+							<h3> • Hot Paris </h3>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/6.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/6.png" alt="flower4">
+						<div class="blog__content text-white mb-5">
+							<h3> • Dekora</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/7.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/7.png" alt="flower4">
+						<div class="blog__content text-white mb-5">
+							<h3> • Queen Berry</h3>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6">
+					<a class="gallery__item fresco img-hover-zoom" href="img/gallery/red/8.png" data-fresco-group="gallery">
+						<img src="img/gallery/red/8.png" alt="flower4">
+						<div class="blog__content text-white mb-5">
+							<h3> ••• </h3>
+						</div>
+					</a>
+				</div>
+
+
 			</div>
-			<!-- <form class="contact__form">
-				<input type="text" placeholder="Name">
-				<input type="text" placeholder="Email">
-				<input type="text" placeholder="Phone">
-				<textarea placeholder="Message"></textarea>
-				<button class="site-btn">Send Message</button>
-			</form> -->
 		</div>
-	</section>
-	<!-- Contact Page end -->
+	</div>
+	<!-- About Page end -->
 
 	<!-- Footer -->
 	<footer class="page-footer font-small unique-color-dark">
@@ -230,7 +272,7 @@
 			<div class="container">
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				<div class="footer__copyright__text">
-					<p>BellaFlowers &copy; <script>
+					<p>Bella Flowers &copy; <script>
 							document.write(new Date().getFullYear());
 						</script> All rights reserved | This template is made with <i class="fa fa-heart"
 							aria-hidden="true"></i> by <a href="https://colorlib.co" target="_blank">Colorlb</a></p>
@@ -247,7 +289,22 @@
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script src="js/fresco.min.js"></script>
 	<script src="js/main.js"></script>
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/instafeed.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<!-- <script src="js/gallery.js"></script> -->
+	<script src="js/gallery1.js"></script>
+
 
 </body>
 
