@@ -3,9 +3,6 @@
 
 * {
 	box-sizing: border-box;
-	&::before, &::after {
-	  box-sizing: border-box;
-	}
   }
   
 html,
@@ -1379,31 +1376,13 @@ ul li {
   }
   
   a {
-	color: $gray;
+	color: rgb(63, 62, 62);
 	text-decoration: none;
 	transition: all 0.2s ease;
-	&:hover {
-	  color: $black;
-	}
-	&.active {
-	  color: $black;
-	}
+
   }
   
-  nav {
-	padding: 2.5rem 0 2.5rem 0;
-	ul {
-	  display: flex;
-	  justify-content: flex-start;
-	}
-	li {
-	  font-size: 1.25rem;
-	  &:nth-child(2) {
-		margin: 0;
-	  }
-	}
-  }
-  
+   
   #highlight {
 	font-size: 1.25rem;
   }
@@ -1425,21 +1404,18 @@ ul li {
 	object-fit: cover;
 	transform: scale(1);
 	transition: all 0.3s ease-in-out;
-	&:hover {
-	  transform: scale(1.05);
-	}
   }
   
  
   .title {
-	color: $black;
+	color: black;
 	font-size: 1.5rem;
 	font-weight: 700;
   }
   
   .category {
 	font-size: 1rem;
-	color: $gray;
+	color: gray;
   }
   
   .img-content {
@@ -1455,12 +1431,7 @@ ul li {
 	display: inline-block;
   }
   
-  footer {
-	padding: 1rem 0;
-	background: $footer;
-	text-align: center;
-  }
-  
+
   @supports (display: grid) {
 	.gallery .grid {
 	  grid-gap: 1rem;
