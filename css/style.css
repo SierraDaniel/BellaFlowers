@@ -1208,8 +1208,22 @@ background-color: white;
 
 }
 
-.hover_red {
+.hover_white
+.hover_red,
+.hover_yellow,
+.hover_pink,
+.hover_green,
+.hover_other,
+.hover_bi,
+.hover_tinted
+ {
 	color: black;
+}
+
+.hover_white:hover {
+	border: none;
+	background-color: rgb(126, 126, 126);
+	color: white;
 }
 
 .hover_red:hover {
@@ -1218,19 +1232,24 @@ background-color: white;
 	color: white;
 }
 
-.hover_yellow {
-	color: black;
-}
-
 .hover_yellow:hover {
 	border: none;
 	background-color: rgb(230, 185, 63);
 	color: white;
 }
 
-.hover_other {
-	color: black;
+.hover_pink:hover {
+	border: none;
+	background-color: rgb(247, 133, 237);
+	color: white;
 }
+
+.hover_green:hover {
+	border: none;
+	background-color: rgb(115, 175, 103);
+	color: white;
+}
+
 
 .hover_other:hover {
 	border: none;
@@ -1238,8 +1257,11 @@ background-color: white;
 	color: white;
 }
 
-.hover_tinted {
-	color: black;
+.hover_bi:hover {
+	border: none;
+	background: rgb(28,129,255);
+	background: linear-gradient(34deg, rgba(28,129,255,1) 30%, rgba(247,101,101,1) 66%);
+	color: white;
 }
 
 .hover_tinted:hover {
