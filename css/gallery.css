@@ -1238,7 +1238,7 @@ ol {
 
 /* Large Mobile :480px. */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
 	.header-section {
 		text-align: center;
 		padding-bottom: 0;
@@ -1366,7 +1366,7 @@ ol {
 	.map {
 		height: 400px;
 	}
-}
+} */
 
 
 /* Gallery add  */ 
