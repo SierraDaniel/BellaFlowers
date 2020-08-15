@@ -5,7 +5,6 @@
 	Copyright By: ColorLib
 --------------------------------------
 ======================================*/
-
 'use strict';
 
 $(window).on('load', function() {
